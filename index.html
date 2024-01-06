@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ua">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Інвестиції у програму</title>
+    <link rel="stylesheet" href="fonts/basis.zip" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="upper-block">
+      <p class="titles blog-part">Інвестиції</p>
+      <h2>
+        зробити<br />
+        — інвестиції у програму
+      </h2>
+    </div>
+    <div class="wrapper">
+      <div class="small-part"><p class="titles">виберіть спосіб оплати</p></div>
+      <form class="big-part" method="post">
+        <div class="options">
+          <div>
+            <input class="radio_style" type="radio" id="bank" name="option" />
+            <label class="caption" for="bank">Банківська карта</label>
+          </div>
+          <div>
+            <input class="radio_style" type="radio" id="paypal" name="option" />
+            <label class="caption" for="paypal">PayPal</label>
+          </div>
+          <div class="last-option">
+            <input
+              class="radio_style"
+              type="radio"
+              id="receipt"
+              name="option"
+            />
+            <label class="caption" for="receipt"
+              >Банківська платіжна квитанція</label
+            >
+          </div>
+        </div>
+        <p class="titles button-title">банківська карта</p>
+        <div class="amount_block">
+          <input
+            class="radio_amount"
+            type="radio"
+            id="radio1"
+            name="amount"
+            value="50000"
+          />
+          <label class="amount" for="radio1">50 000</label>
+          <input
+            class="radio_amount"
+            type="radio"
+            id="radio2"
+            name="amount"
+            value="30000"
+          />
+          <label class="amount" for="radio2">30 000</label>
+          <input
+            class="radio_amount"
+            type="radio"
+            id="radio3"
+            name="amount"
+            value="10000"
+          />
+          <label class="amount" for="radio3">10 000</label>
+          <input
+            class="radio_amount"
+            type="radio"
+            id="radio4"
+            name="amount"
+            value="1000"
+          />
+          <label class="amount" for="radio4">1 000</label>
+        </div>
+        <div>
+          <input
+            class="another_amount"
+            type="text"
+            id="another_amount"
+            name="amount"
+            placeholder="Інша сумма"
+          />
+        </div>
+        <div class="options">
+          <div>
+            <input
+              class="radio_style"
+              type="radio"
+              id="monthly"
+              name="frequency"
+            />
+            <label class="caption" for="monthly">Щомісячно</label>
+          </div>
+          <div>
+            <input
+              class="radio_style"
+              type="radio"
+              id="once"
+              name="frequency"
+            />
+            <label class="caption" for="once">Одноразово</label>
+          </div>
+        </div>
+        <div>
+          <div>
+            <label class="titles" for="name">ім’я</label>
+            <input
+              class="hint"
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Напишіть ваше ім’я"
+            />
+          </div>
+          <div>
+            <label class="titles" for="mail">Email</label>
+            <input
+              class="hint"
+              type="email"
+              id="mail"
+              name="mail"
+              placeholder="Напишіть вашу електронну адресу"
+            />
+          </div>
+        </div>
+        <div class="checkbox_block">
+          <label>
+            <input type="checkbox" name="contract" required />
+            <span class="checkmark"></span>
+            <span class="caption">Я приймаю</span>
+            <a href="#">Договір оферти</a>
+          </label>
+        </div>
+        <div class="checkbox_block">
+          <label>
+            <input type="checkbox" name="contract" required checked="checked" />
+            <span class="checkmark"></span>
+            <span class="caption">Я приймаю</span>
+            <a href="#">Угоду про використання персональних даних</a>
+          </label>
+        </div>
+        <button class="submit" type="submit">відправити</button>
+      </form>
+    </div>
+  </body>
+</html>
